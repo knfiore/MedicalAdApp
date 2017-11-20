@@ -17,12 +17,11 @@
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:ems="10"
         android:inputType="textEmailAddress|date"
-        android:text="Days to Take" />
+        android:text="Days to Take"
+        android:layout_below="@+id/editText2" />
 
     <EditText
         android:id="@+id/editText5"
