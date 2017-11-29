@@ -21,7 +21,7 @@ public class NavigationScreen extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_screen);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewBy6Id(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
