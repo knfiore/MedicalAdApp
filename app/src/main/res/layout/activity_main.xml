@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/goldlogo" />
+        app:srcCompat="@drawable/goldlogo" android:contentDescription="@string/todo" />
 
     <EditText
         android:id="@+id/editText3"
@@ -25,7 +25,7 @@
         android:layout_marginTop="47dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Username" />
+        android:text="@string/username" />
 
     <EditText
         android:id="@+id/editText6"
@@ -33,10 +33,11 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editText3"
         android:layout_below="@+id/editText3"
+        android:labelFor="@+id/editText3"
         android:layout_marginTop="35dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Password" />
+        android:text="@string/password" />
 
     <Button
         android:id="@+id/button3"
@@ -44,7 +45,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="83dp"
-        android:text="LOGIN" />
+        android:labelFor="@+id/editText6"
+        android:layout_marginBottom="75dp"
+        android:text="@string/login"
+        android:textSize="24sp" />
 
 </RelativeLayout>
